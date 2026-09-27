@@ -16,11 +16,11 @@ python3 -m http.server 8000
 - `index.html`: the page (hero, gallery, eat/wine/pleasure, programme, booking)
 - `styles.css`: the retro 80s design (chrome type, neon, polaroids, boarding pass, Text-TV)
 - `script.js`: the booking form. It is a demo and sends nothing; the confirmation is shown on the page.
-- `images/`: AI-generated vector illustrations
+- `images/`: vector illustrations
 
-## Swapping in photoreal AI images
+## Replacing the illustrations
 
-To replace the illustrations, generate images with these prompts and keep the same file names (as `.jpg`/`.png`, updating the `src` in `index.html`):
+To replace the illustrations with photos, use images matching these descriptions and keep the same file names (as `.jpg`/`.png`, updating the `src` in `index.html`):
 
 | File | Prompt |
 |---|---|
