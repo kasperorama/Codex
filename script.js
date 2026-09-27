@@ -1,30 +1,10 @@
 // Sjøgren's Travel — booking form (static demo, no backend)
 (function () {
-  const PRICE_PER_PERSON = 14995;
-  const SINGLE_SUPPLEMENT = 3500;
-
   const form = document.getElementById('booking-form');
   const adults = document.getElementById('adults');
   const room = document.getElementById('room');
-  const totalEl = document.getElementById('total');
   const errorEl = document.getElementById('form-error');
   const confirmation = document.getElementById('confirmation');
-
-  const dkk = (n) => 'DKK ' + n.toLocaleString('da-DK');
-
-  function calcTotal() {
-    const n = Number(adults.value);
-    const supplement = room.value === 'single' ? SINGLE_SUPPLEMENT * n : 0;
-    return n * PRICE_PER_PERSON + supplement;
-  }
-
-  function updateTotal() {
-    totalEl.textContent = dkk(calcTotal());
-  }
-
-  adults.addEventListener('change', updateTotal);
-  room.addEventListener('change', updateTotal);
-  updateTotal();
 
   function showError(message, field) {
     errorEl.textContent = message;
@@ -54,13 +34,11 @@
     document.getElementById('conf-name').textContent = name;
     document.getElementById('conf-guests').textContent =
       n + (n === 1 ? ' ADULT' : ' ADULTS') + ', ' + (room.value === 'single' ? 'SINGLE' : 'DOUBLE');
-    document.getElementById('conf-total').textContent = dkk(calcTotal());
     document.getElementById('tt-clock').textContent = new Date().toLocaleTimeString('da-DK', { hour: '2-digit', minute: '2-digit' });
 
     confirmation.hidden = false;
     confirmation.focus();
     confirmation.scrollIntoView({ behavior: 'smooth', block: 'center' });
     form.reset();
-    updateTotal();
   });
 })();

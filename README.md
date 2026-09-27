@@ -1,7 +1,7 @@
 # Sjøgren's Travel
 
-A 1980s travel-agency style website for an adults-only food, wine and pleasure trip to Palma de Mallorca.
-There is exactly one bookable departure: **12–19 September 2027** (Copenhagen → Palma).
+A 1980s travel-agency style website for a 3-day, adults-only food, wine and pleasure trip to Palma de Mallorca.
+There is exactly one bookable departure: **Friday 10 – Sunday 12 September 2027** (Copenhagen → Palma).
 
 ## Run it
 
@@ -15,7 +15,7 @@ python3 -m http.server 8000
 
 - `index.html`: the page (hero, gallery, eat/wine/pleasure, programme, booking)
 - `styles.css`: the retro 80s design (chrome type, neon, polaroids, boarding pass, Text-TV)
-- `script.js`: price calculation and the booking form. It is a demo and sends nothing; the confirmation is shown on the page.
+- `script.js`: the booking form. It is a demo and sends nothing; the confirmation is shown on the page.
 - `images/`: AI-generated vector illustrations
 
 ## Swapping in photoreal AI images
