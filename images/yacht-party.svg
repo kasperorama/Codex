@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="t">
+  <title id="t">Champagne toast on a yacht deck at golden hour</title>
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff7eb3"/><stop offset=".6" stop-color="#ffb86b"/><stop offset="1" stop-color="#ffe29a"/></linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fb5c9"/><stop offset="1" stop-color="#0a4d8c"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6c2"/><stop offset="1" stop-color="#ffcf4a"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#s)"/>
+  <circle cx="450" cy="250" r="70" fill="#fff4b8" opacity=".9"/>
+  <rect y="300" width="600" height="300" fill="url(#w)"/>
+  <g stroke="#fff" stroke-width="3" opacity=".5" stroke-linecap="round">
+    <line x1="380" y1="330" x2="520" y2="330"/><line x1="400" y1="360" x2="500" y2="360"/><line x1="60" y1="345" x2="180" y2="345"/>
+  </g>
+  <path d="M110 300 l40 -8 h60 l30 8 z" fill="#fff" opacity=".7"/>
+  <!-- deck rail -->
+  <rect x="0" y="470" width="600" height="130" fill="#b5835a"/>
+  <g fill="#8a5a3a"><rect y="490" width="600" height="4"/><rect y="520" width="600" height="4"/><rect y="550" width="600" height="4"/><rect y="580" width="600" height="4"/></g>
+  <rect x="0" y="420" width="600" height="8" fill="#f2f2f2"/>
+  <g fill="#f2f2f2"><rect x="40" y="420" width="6" height="50"/><rect x="200" y="420" width="6" height="50"/><rect x="360" y="420" width="6" height="50"/><rect x="520" y="420" width="6" height="50"/></g>
+  <!-- two arms toasting -->
+  <path d="M-10 600 C60 520 140 430 215 360 l26 22 C170 450 90 540 40 600 z" fill="#e0a07a"/>
+  <path d="M-10 600 C40 560 80 520 110 490 l40 40 C110 560 70 590 50 600 z" fill="#ff3d7f"/>
+  <path d="M610 600 C540 520 460 430 385 360 l-26 22 C430 450 510 540 560 600 z" fill="#c98a64"/>
+  <path d="M610 600 C560 560 520 520 490 490 l-40 40 C490 560 530 590 550 600 z" fill="#00c2c7"/>
+  <!-- glasses -->
+  <g transform="translate(250 230) rotate(18)">
+    <path d="M0 0 h40 l-6 110 h-28 z" fill="url(#g)" stroke="#fff" stroke-width="3"/>
+    <rect x="18" y="110" width="4" height="60" fill="#fff"/><rect x="0" y="168" width="40" height="5" fill="#fff"/>
+  </g>
+  <g transform="translate(312 243) rotate(-18)">
+    <path d="M0 0 h40 l-6 110 h-28 z" fill="url(#g)" stroke="#fff" stroke-width="3"/>
+    <rect x="18" y="110" width="4" height="60" fill="#fff"/><rect x="0" y="168" width="40" height="5" fill="#fff"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="300" cy="215" r="6"/><circle cx="285" cy="190" r="4"/><circle cx="318" cy="180" r="5"/>
+    <circle cx="300" cy="160" r="3"/><circle cx="330" cy="205" r="3"/><circle cx="272" cy="210" r="3"/>
+  </g>
+  <g stroke="#fff" stroke-width="3" stroke-linecap="round">
+    <line x1="300" y1="140" x2="300" y2="120"/><line x1="270" y1="150" x2="258" y2="134"/><line x1="330" y1="150" x2="342" y2="134"/>
+  </g>
+</svg>

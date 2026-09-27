@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="t">
+  <title id="t">Rooftop cocktail bar over Palma's old town at dusk</title>
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d0b3b"/><stop offset=".55" stop-color="#8a2a8c"/><stop offset="1" stop-color="#ff7a59"/></linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffcc4d"/><stop offset="1" stop-color="#ff3d7f"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#s)"/>
+  <g fill="#fff" opacity=".7"><circle cx="60" cy="50" r="2"/><circle cx="200" cy="90" r="1.5"/><circle cx="480" cy="40" r="2"/><circle cx="540" cy="120" r="1.5"/></g>
+  <circle cx="470" cy="120" r="34" fill="#fff3c4"/><circle cx="485" cy="110" r="30" fill="#4a1a6b"/>
+  <!-- rooftops -->
+  <g fill="#2c0f3f">
+    <path d="M0 360 V300 h60 v-30 h50 v30 h40 v-60 l20 -30 20 30 v60 h70 v-40 h60 v40 h50 v-90 l14 -40 14 40 v90 h60 v-20 h80 v80 z"/>
+  </g>
+  <g fill="#ffd166"><rect x="70" y="290" width="8" height="10"/><rect x="90" y="285" width="8" height="10"/><rect x="250" y="300" width="8" height="10"/><rect x="330" y="310" width="8" height="10"/><rect x="400" y="290" width="8" height="10"/><rect x="520" y="320" width="8" height="10"/></g>
+  <!-- string lights -->
+  <path d="M0 150 Q150 230 300 160 T600 170" fill="none" stroke="#111" stroke-width="2"/>
+  <g fill="#ffe27a">
+    <circle cx="40" cy="170" r="7"/><circle cx="100" cy="192" r="7"/><circle cx="160" cy="200" r="7"/><circle cx="220" cy="190" r="7"/>
+    <circle cx="280" cy="168" r="7"/><circle cx="340" cy="150" r="7"/><circle cx="400" cy="145" r="7"/><circle cx="460" cy="155" r="7"/><circle cx="520" cy="172" r="7"/><circle cx="580" cy="175" r="7"/>
+  </g>
+  <!-- bar counter -->
+  <rect y="400" width="600" height="200" fill="#0e3b4a"/>
+  <rect y="400" width="600" height="14" fill="#00c2c7"/>
+  <!-- cocktails -->
+  <g transform="translate(120 290)">
+    <path d="M0 0 h110 l-55 70 z" fill="url(#c)" stroke="#fff" stroke-width="3"/>
+    <rect x="52" y="70" width="6" height="36" fill="#fff"/><rect x="25" y="104" width="60" height="6" fill="#fff"/>
+    <circle cx="95" cy="-5" r="14" fill="#9bff6a"/><line x1="30" y1="-40" x2="60" y2="30" stroke="#ff3d7f" stroke-width="4"/>
+  </g>
+  <g transform="translate(360 250)">
+    <rect x="0" y="0" width="70" height="150" rx="6" fill="#ff9ec7" opacity=".85" stroke="#fff" stroke-width="3"/>
+    <rect x="8" y="30" width="54" height="20" fill="#fff" opacity=".4"/>
+    <path d="M50 -40 L40 60" stroke="#00e0c6" stroke-width="5"/>
+    <path d="M-10 0 q20 -30 40 0" fill="#ffd166"/>
+    <path d="M60 -10 l18 -20 l6 14 z" fill="#2ec27e"/>
+  </g>
+  <text x="300" y="530" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="54" fill="#ff5fa2" stroke="#fff" stroke-width="1">Happy Hour</text>
+</svg>

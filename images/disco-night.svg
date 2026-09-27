@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="t">
+  <title id="t">Disco ball and dancers at a late-night party in Palma</title>
+  <defs>
+    <radialGradient id="bg" cx=".5" cy=".3" r=".9"><stop offset="0" stop-color="#5b1a8c"/><stop offset="1" stop-color="#0d0420"/></radialGradient>
+    <radialGradient id="ball" cx=".35" cy=".35" r=".8"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#b9c4d6"/><stop offset="1" stop-color="#4b5570"/></radialGradient>
+    <clipPath id="bc"><circle cx="300" cy="150" r="80"/></clipPath>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity=".35">
+    <path d="M300 150 L0 600 L120 600 z" fill="#ff3d7f"/><path d="M300 150 L600 600 L480 600 z" fill="#00e0c6"/>
+    <path d="M300 150 L230 600 L360 600 z" fill="#ffd166"/>
+  </g>
+  <line x1="300" y1="0" x2="300" y2="70" stroke="#999" stroke-width="3"/>
+  <circle cx="300" cy="150" r="80" fill="url(#ball)"/>
+  <g clip-path="url(#bc)" stroke="#2a2f40" stroke-width="1.5" opacity=".6">
+    <line x1="220" y1="90" x2="380" y2="90"/><line x1="220" y1="110" x2="380" y2="110"/><line x1="220" y1="130" x2="380" y2="130"/><line x1="220" y1="150" x2="380" y2="150"/>
+    <line x1="220" y1="170" x2="380" y2="170"/><line x1="220" y1="190" x2="380" y2="190"/><line x1="220" y1="210" x2="380" y2="210"/>
+    <line x1="240" y1="60" x2="240" y2="240"/><line x1="260" y1="60" x2="260" y2="240"/><line x1="280" y1="60" x2="280" y2="240"/><line x1="300" y1="60" x2="300" y2="240"/>
+    <line x1="320" y1="60" x2="320" y2="240"/><line x1="340" y1="60" x2="340" y2="240"/><line x1="360" y1="60" x2="360" y2="240"/>
+  </g>
+  <g fill="#fff"><path d="M120 90 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z"/><path d="M480 80 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z"/><path d="M520 260 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/><path d="M70 250 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/></g>
+  <!-- checkered dance floor -->
+  <g>
+    <path d="M0 470 H600 V600 H0z" fill="#1a0b30"/>
+    <g fill="#ff3d7f" opacity=".7"><path d="M0 470 h75 v40 h-75z M150 470 h75 v40 h-75z M300 470 h75 v40 h-75z M450 470 h75 v40 h-75z M75 510 h75 v45 h-75z M225 510 h75 v45 h-75z M375 510 h75 v45 h-75z M525 510 h75 v45 h-75z M0 555 h75 v45 h-75z M150 555 h75 v45 h-75z M300 555 h75 v45 h-75z M450 555 h75 v45 h-75z"/></g>
+    <g fill="#00c2c7" opacity=".6"><path d="M75 470 h75 v40 h-75z M375 470 h75 v40 h-75z M225 555 h75 v45 h-75z M0 510 h75 v45 h-75z"/></g>
+  </g>
+  <!-- dancers -->
+  <g fill="#0d0420">
+    <circle cx="150" cy="330" r="22"/><path d="M130 355 h40 l10 80 h-20 l-10 50 h-10 l-10 -50 h-20z"/><path d="M130 360 l-40 -60 12 -6 42 56z"/><path d="M170 360 l30 40 -10 8 -30 -38z"/>
+    <circle cx="300" cy="320" r="24"/><path d="M280 346 h40 l14 90 h-26 l-8 50 h-12 l-8 -50 h-22z"/><path d="M282 352 l-30 -70 12 -4 32 70z"/><path d="M318 352 l30 -70 12 4 -32 70z"/>
+    <path d="M285 300 q15 -40 40 -10 q10 10 5 30 q-20 -20 -45 -20z"/>
+    <circle cx="450" cy="335" r="22"/><path d="M430 360 h40 l10 76 h-20 l-10 50 h-10 l-10 -50 h-20z"/><path d="M470 365 l45 -50 8 8 -45 52z"/><path d="M430 365 l-26 44 10 6 26 -42z"/>
+  </g>
+</svg>
