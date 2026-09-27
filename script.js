@@ -34,6 +34,8 @@
     document.getElementById('conf-name').textContent = name;
     document.getElementById('conf-guests').textContent =
       n + (n === 1 ? ' ADULT' : ' ADULTS') + ', ' + (room.value === 'single' ? 'SINGLE' : 'DOUBLE');
+    const addons = data.getAll('addons');
+    document.getElementById('conf-addons').textContent = addons.length ? addons.join(', ') : 'NONE';
     document.getElementById('tt-clock').textContent = new Date().toLocaleTimeString('da-DK', { hour: '2-digit', minute: '2-digit' });
 
     confirmation.hidden = false;

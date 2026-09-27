@@ -36,6 +36,7 @@
       <a href="#wine">Wine</a>
       <a href="#pleasure">Pleasure</a>
       <a href="#programme">Programme</a>
+      <a href="#addons">Add-ons</a>
       <a href="#book" class="nav__cta">Book</a>
     </nav>
     <div class="est">EST.<br>1983</div>
@@ -66,7 +67,7 @@
           <h2 class="section-title"><span>Dear traveller,</span></h2>
           <p class="lead">Forget the water parks, the buffet queues and the sticky little fingers. Sjøgren's Travel takes grown-ups to <strong>Palma de Mallorca</strong> in golden September – when the sea is still warm, the grapes are coming in, and the city belongs to those of us who like a long lunch and a late night.</p>
           <p>Three days. One departure. One small group of like-minded pleasure-seekers. We handle the flights, the hotel, the tables and the taxis – you handle the corkscrew.</p>
-          <p class="signature">— Your hosts at Sjøgren's</p>
+          <p class="signature">— Claus Sjøgren, a.k.a. Mr Fromage</p>
         </div>
         <ul class="facts">
           <li><span class="facts__big">3</span> days in Palma</li>
@@ -158,6 +159,44 @@
       </ol>
     </section>
 
+    <!-- OWNER -->
+    <section id="owner" class="section section--cheese" aria-labelledby="owner-title">
+      <div class="owner">
+        <img class="owner__badge" src="images/mr-fromage.svg" alt="Mr Fromage emblem: a cheese wedge with a beret, moustache and bow tie" loading="lazy">
+        <div class="owner__text">
+          <p class="kicker kicker--dark">Meet the owner</p>
+          <h2 id="owner-title" class="section-title section-title--left"><span>Claus Sjøgren</span></h2>
+          <p class="owner__aka">a.k.a. <strong>“Mr Fromage”</strong></p>
+          <p class="lead">Claus founded Sjøgren's Travel with one simple belief: a holiday should taste good. And nothing tastes better to Claus than cheese. He has such a deep love for it that friends, staff and guests only call him by one name: <strong>Mr Fromage</strong>.</p>
+          <p>Travel with Claus and you'll hear all about the tangy Mahón from neighbouring Menorca, the sheep's cheeses of the Mallorcan hills, and exactly which island wine to pour with each one. Don't be surprised if a cheese board appears when you least expect it.</p>
+          <blockquote class="owner__quote">“Wine without cheese is like Palma without sunshine.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADD-ONS -->
+    <section id="addons" class="section section--grid" aria-labelledby="addons-title">
+      <h2 id="addons-title" class="section-title section-title--neon">Add-ons</h2>
+      <p class="section-sub">Make it even better. Tick them off when you book.</p>
+      <div class="addons">
+        <article class="addon addon--sangria">
+          <div class="addon__icon" aria-hidden="true">🍹</div>
+          <h3>White Sangria</h3>
+          <p>An ice-cold jug of white sangria, made with island white wine, peach, citrus and a splash of cava. Delivered to your sun lounger or the roof terrace, whenever you say so.</p>
+        </article>
+        <article class="addon addon--massage">
+          <div class="addon__icon" aria-hidden="true">💆</div>
+          <h3>Thai Massage by Anna</h3>
+          <p>A traditional Thai massage by the world-class Anna, who is flown in especially for our guests. Stretch out the flight, the tapas and the disco night in one blissful hour.</p>
+        </article>
+        <article class="addon addon--cheese">
+          <div class="addon__icon" aria-hidden="true">🧀</div>
+          <h3>Mr Fromage's Cheese Board</h3>
+          <p>Claus's personal selection of Balearic cheeses, hand-picked and served with fig bread, almonds and a matching island wine. Of course.</p>
+        </article>
+      </div>
+    </section>
+
     <!-- BOOKING -->
     <section id="book" class="section section--book">
       <h2 class="section-title section-title--neon">Book Your Seat</h2>
@@ -235,6 +274,13 @@
               <textarea name="notes" rows="3" placeholder="Anniversary? Allergic to shellfish? Only drinks white?"></textarea>
             </label>
 
+            <fieldset class="addon-picks">
+              <legend>Add-ons</legend>
+              <label class="check"><input type="checkbox" name="addons" value="White sangria"><span>White sangria</span></label>
+              <label class="check"><input type="checkbox" name="addons" value="Thai massage by Anna"><span>Thai massage by Anna</span></label>
+              <label class="check"><input type="checkbox" name="addons" value="Mr Fromage's cheese board"><span>Mr Fromage's cheese board</span></label>
+            </fieldset>
+
             <label class="check">
               <input type="checkbox" name="adultsOnly" required>
               <span>I confirm every traveller is <strong>18 years or older</strong>. No kids, no exceptions.</span>
@@ -254,6 +300,7 @@
           <p>NAME: <span id="conf-name"></span></p>
           <p>TRIP: PALMA 10-12 SEP 2027</p>
           <p>GUESTS: <span id="conf-guests"></span></p>
+          <p>ADD-ONS: <span id="conf-addons"></span></p>
           <p class="teletext__note">A SJØGREN'S AGENT WILL CONTACT YOU WITHIN 48 HOURS TO CONFIRM AND ARRANGE PAYMENT.</p>
           <p class="teletext__bar teletext__bar--blue">HAVE A GLASS OF WINE WHILE YOU WAIT</p>
         </div>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t">
+  <title id="t">Mr Fromage emblem: a cheese wedge with a bow tie and moustache on a sunburst</title>
+  <defs>
+    <radialGradient id="b" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#ffe58a"/><stop offset="1" stop-color="#ff8a3d"/></radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="195" fill="url(#b)" stroke="#1d0b3b" stroke-width="8"/>
+  <g stroke="#ff3d7f" stroke-width="10" opacity=".35">
+    <line x1="200" y1="20" x2="200" y2="380"/><line x1="20" y1="200" x2="380" y2="200"/>
+    <line x1="73" y1="73" x2="327" y2="327"/><line x1="327" y1="73" x2="73" y2="327"/>
+  </g>
+  <!-- cheese wedge -->
+  <path d="M80 250 L320 250 L320 180 L120 130 Z" fill="#ffd166" stroke="#1d0b3b" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M120 130 L320 180 L300 160 L110 118 Z" fill="#ffe9a8" stroke="#1d0b3b" stroke-width="6" stroke-linejoin="round"/>
+  <g fill="#f2b33d" stroke="#1d0b3b" stroke-width="3">
+    <circle cx="270" cy="220" r="14"/><circle cx="160" cy="232" r="9"/><circle cx="300" cy="235" r="7"/><circle cx="215" cy="195" r="6"/>
+  </g>
+  <!-- face -->
+  <circle cx="190" cy="200" r="8" fill="#1d0b3b"/><circle cx="240" cy="205" r="8" fill="#1d0b3b"/>
+  <path d="M185 228 q15 -14 30 0 q15 -14 30 0 q-10 14 -30 4 q-20 10 -30 -4z" fill="#1d0b3b"/>
+  <!-- beret -->
+  <ellipse cx="215" cy="140" rx="60" ry="18" fill="#1d0b3b"/><rect x="211" y="112" width="8" height="14" fill="#1d0b3b"/>
+  <!-- bow tie -->
+  <path d="M190 262 l-30 -14 v28z M230 262 l30 -14 v28z" fill="#ff3d7f" stroke="#1d0b3b" stroke-width="4"/>
+  <circle cx="210" cy="262" r="10" fill="#00b3b8" stroke="#1d0b3b" stroke-width="4"/>
+  <path id="arc" d="M70 300 A140 140 0 0 0 330 300" fill="none"/>
+  <text font-family="Arial Black, sans-serif" font-size="30" fill="#1d0b3b" letter-spacing="4"><textPath href="#arc" startOffset="50%" text-anchor="middle">MR FROMAGE</textPath></text>
+</svg>
